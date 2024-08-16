@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Chamado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sistema de Chamado</h2>
+        <form id="ticketForm">
+            <div class="form-group">
+                <label for="title">Título:</label>
+                <input type="text" id="title" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Lista dos chamados:</label>
+                <input type="text" id="title" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Descrição:</label>
+                <textarea id="description" rows="4" required></textarea>
+            </div>
+            <button type="submit">Criar Chamado</button>
+        </form>
+        <h3>Chamados</h3>
+        <ul id="ticketList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
